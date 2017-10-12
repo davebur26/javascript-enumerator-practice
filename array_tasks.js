@@ -69,6 +69,15 @@ var arrayTasks = {
 				}
 				return total
 			}, 0)
+
+			// or
+	// 		sumOfAllEvenNumbersSquared: function (arr) {
+  //   var evenNums = arr.filter(function(item) {
+	// 		return (item % 2 === 0)
+	// 	})
+	// 	var result = arrayTasks.square(evenNums);
+	// 	return arrayTasks.sum(result);
+	// }
 	}
 
 }
