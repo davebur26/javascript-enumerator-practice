@@ -53,11 +53,10 @@ var arrayTasks = {
 	findIndexesOf: function (arr, itemToFind) {
 		var arrFiltered = []
 		var index = 0
-		arr.forEach(function(value){
+		arr.forEach(function(value, index){
 			if (value === itemToFind){
 				arrFiltered.push(index)
 			}
-			index ++
 		})
 		return arrFiltered
 	},
